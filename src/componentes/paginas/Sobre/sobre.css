@@ -1,0 +1,84 @@
+.capa-sobre{
+    background-image: url('/public/assets/banner-sobre.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width:100%;
+    animation: capa-animada 1.5s ease-in-out;
+    
+}
+
+.capa-sobre h1{
+    font-size: 55px;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000000;
+    padding: 20px 30px;
+    text-align: center;
+    animation: h1-animado 2s ease-in-out;
+}
+
+.secao-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 40px;
+}
+.secao-sobre h1{
+    font-size: 35px;
+    line-height: 26px;
+    text-align: center;
+    
+}
+
+.secao-sobre span{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    margin: 10px 0 40px 0;
+    text-align: center;
+}
+
+.secao-sobre p{
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    line-height: 26px;
+    text-align: center;
+    text-shadow: 0 0 0.5px ;
+}
+
+.secao-sobre-img{
+    display: flex;
+}
+
+.sobre-img{
+    width: 50%;
+    height:auto;
+}
+
+@media screen and (max-width: 768px) {
+    .capa-sobre h1{
+        font-size: 60px;
+    }
+
+    .secao-sobre-img{
+        flex-direction: column;
+    }
+    .sobre-img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .capa-sobre{
+        height: 100vh;
+    }
+    .capa-sobre h1{
+        font-size: 35px;
+    }
+
+}

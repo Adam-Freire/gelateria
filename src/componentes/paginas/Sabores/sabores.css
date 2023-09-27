@@ -1,0 +1,92 @@
+.capa-sabores{
+    background-image: url('/public/assets/banner-sabores.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width:100%;
+    animation: capa-animada 1.5s ease-in-out;
+    
+}
+
+.titulo-sabores{
+    font-size: 55px;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000000;
+    padding: 20px 30px;
+    text-align: center;
+    animation: h1-animado 2s ease-in-out;
+}
+
+.secao-sabor{
+    padding: 100px 40px;
+}
+
+.secao-sabor h2{
+    text-align: center;
+}
+
+.secao-sabores-conteudo{
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-sabores{
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 4px ;
+    box-shadow: 2px 2px 15px 2px #d9dde1;
+    margin-bottom: 30px;
+
+}
+
+.card-sabores img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;    
+}
+
+.card-sabores p{
+    margin: 10px 0 10px 0;
+}
+
+@media (max-width:425px) {
+    .capa-sabores{
+        height: 100vh;
+    }
+    .titulo-sabores{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .card-sabores{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .titulo-sabores{
+        text-align: center;
+        font-size: 32px;
+    }
+    .card-sabores{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+/* @media (max-width:1024px) {
+    .titulo-sabores{
+        text-align: center;
+        font-size:px;
+    }
+} */

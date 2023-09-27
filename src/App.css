@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Popins', sans-serif;
+}
+
+.limitar-secao{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+@keyframes capa-animada {
+    
+    from{
+        transform: translatey(-100%);
+    }
+    to{
+        transform: translatey(0);
+    }    
+}
+
+
+@keyframes h1-animado {
+    
+    from{
+        transform: translatey(-100%);
+    }
+    to{
+        transform: translatey(0);
+    }    
+}
